@@ -13,4 +13,6 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Adjust the placeholder value for the date input box.
+- Add images regarding menu items with additional captions descriping its contents.
+- Creating a side scrolling section show casing the images of the different menu items.

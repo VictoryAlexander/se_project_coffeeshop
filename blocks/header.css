@@ -1,0 +1,110 @@
+.header{
+    background-color: #FFFFFF;
+    background-image: url(../images/background_header.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 720px;
+    max-height: 800px;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 125px;
+    height: 142px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.nav__links{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 20px;
+    padding-right: 80px;
+}
+
+.nav__link{
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav__link:hover{
+    color:#2F80ed;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.header__title{
+    max-width: 729px;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 80px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.header__span-accent{
+    display: block;
+    font-family: 'Noto Serif';
+    font-style: italic;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2F80ED;
+}
+
+.header__description{
+    max-width: 683px;
+    padding-left: 80px;
+    padding-top: 28px;
+    margin: 0;
+    font-family: 'Noto Serif';
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.header__image{
+    width: 646px;
+    height: 568px;
+    z-index: 1;
+    position: absolute;
+    top: 124px;
+    right: 5px;
+}
+
+.header__paragraph{
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6f6f6f;
+}
+
+.header__list-item{
+    list-style: none;
+}
