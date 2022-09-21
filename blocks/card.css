@@ -1,0 +1,31 @@
+.card{
+    list-style: none;
+    flex-basis: 600px;
+}
+
+.card__title{
+    margin: 0;
+    padding-bottom: 16px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.card__list{
+    padding-left: 0;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.card__list-item{
+    display: flex;
+    list-style: none;
+    padding-top: 16px;
+}
+
+.card__list-divider{
+    border-bottom: 1px solid;
+    flex-grow: 1;
+}
