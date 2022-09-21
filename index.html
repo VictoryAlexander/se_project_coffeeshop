@@ -51,7 +51,7 @@
           class="header__image"
           />
           <div class="header__paragraph">
-            <ul class="header_paragraph-list">
+            <ul class="header__paragraph-list">
               <li class="header__list-item">Hours:</li>
               <li class="header__list-item">Monday - Friday (10:00 - 19:00)</li>
               <li class="header__list-item">Saturday - Sunday (11:00 - 18:00)</li>
@@ -104,7 +104,7 @@
           Check out some recipes we've collected for your home-brewing convenience:
           </p>
           <div class="recipes__videos">
-            <div class="recipe__video">
+            <div class="recipes__video">
               <iframe 
               src="https://www.youtube.com/embed/watch?v=j6VlT_jUVPc" 
               title="Aeropress_recipe" 
@@ -116,7 +116,7 @@
                 <h3 class="recipes__video-duration">~5 min</h3>
               </div>
             </div>
-            <div class="recipe__video">
+            <div class="recipes__video">
               <iframe 
               src="https://www.youtube.com/embed/watch?v=st571DYYTR8" 
               title="French press recipe" 
@@ -133,20 +133,20 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form">
-            <fieldset class="form__fieldset">
-              <label class="form__label">Name *</label>
-              <input type="text" placeholder="Name Surname" required class="form__input">
-              <label class="form__label">Number of guests *</label>
-              <input type="number" max="8" min="1" placeholder="1-8" required class="form__input">
-              <label class="form__label">Date & time *</label>
+            <fieldset class="reservation__fieldset">
+              <label class="reservation__label">Name *</label>
+              <input type="text" placeholder="Name Surname" required class="reservation__input">
+              <label class="reservation__label">Number of guests *</label>
+              <input type="number" max="8" min="1" placeholder="1-8" required class="reservation__input">
+              <label class="reservation__label">Date & time *</label>
               <input type="date" required class="form__input">
-              <label class="form__label">Your email *</label>
-              <input type="email" placeholder="email@email.com" required class="form__input">
+              <label class="reservation__label">Your email *</label>
+              <input type="email" placeholder="email@email.com" required class="reservation__input">
             </fieldset>
-            <button class="form__button">Book a table</button>
-            <div class="form__checkbox-footer">
-              <input type="checkbox" class="form__checkbox">
-              <label class="form__label">I agree with the terms of use</label>
+            <button class="reservation__button">Book a table</button>
+            <div class="reservation__checkbox-footer">
+              <input type="checkbox" class="reservation__checkbox">
+              <label class="reservation__label">I agree with the terms of use</label>
             </div>
           </form>
         </section>
