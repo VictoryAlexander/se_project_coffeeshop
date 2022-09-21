@@ -43,7 +43,7 @@
     line-height: 20px;
 }
 
-.form__button:transition{
+.form__button:hover{
     opacity: 70%;
     transition-property: opacity;
     transition-duration: 0.5s;
