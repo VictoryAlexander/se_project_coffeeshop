@@ -11,6 +11,10 @@ This is the second project of the Web Development program at Practicum. It was c
 - A custom form
 - CSS animation and transform
 
+## Github Pages
+
+https://victoryalexander.github.io/se_project_coffeeshop/
+
 ## Plan on improving the project
 
 - Adjust the placeholder value for the date input box.
